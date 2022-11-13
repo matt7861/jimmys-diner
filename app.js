@@ -97,5 +97,3 @@ const productsHtml = products
   .join("");
 
 items.innerHTML = productsHtml;
-
-// on form submit, get name and output name in the html section

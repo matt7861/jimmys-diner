@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module" defer></script>
+    <title>Jimmy's Dinner</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="title">
+                <h1>Jimmy's Diner</h1>
+                <h3>The best burgers and pizzas in town.</h3>
+            </div>
+            <div class="content">
+                <div class="items" id="items">
+
+
+                </div>
+                <div class="order">
+                    <h2 class="order-header">Your order</h2>
+                    <div id="order-wrapper">
+
+                    </div>
+                    <div class="total">
+                        <h2>Total price:</h2>
+                        <p id="price">$0</p>
+                    </div>
+                    <a href="#" class="button" id="complete-btn">Complete order</a>
+                </div>
+            </div>
+
+            <div class="payment" id="payment-popup">
+                <h2>Enter card details</h2>
+                <form id="payment-form">
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    <input type="text" name="card" id="card" placeholder="Enter card number" required>
+                    <input type="text" name="ccv" id="ccv" placeholder="Enter CVV" required>
+                    <button class="button submit" type="submit">Pay</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
